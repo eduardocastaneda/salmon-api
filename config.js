@@ -4,7 +4,7 @@ var config =  {
     version: version,
     hostname: 'salmon',
     pagename: 'salmon - api',
-    populateDb: true,
+    populateDb: false,
     devDb: 'mongodb://localhost/salmon'
 };
 
