@@ -6,7 +6,7 @@ var site = require('./controllers/site');
 var users = require('./controllers/users');
 var posts = require('./controllers/posts');
 var config = require('./config');
-var populateDb = require('./populateDb');
+var populateDb = require('./db/populateDb');
 var ObjectId = require('mongodb').ObjectID;
 
 if('development' == app.get('env')) {

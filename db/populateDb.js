@@ -1,6 +1,6 @@
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
-var config = require('./config');
+var config = require('../config');
 
 var insertToCollections = function(db, callback) {
   db.collection('users').insertMany([
